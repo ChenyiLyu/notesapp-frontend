@@ -32,7 +32,7 @@ const NotesList = () => {
                             <p>{note.body}</p>
                         </Link>
                     </div>
-                )) : <div>Notes are not availiable.</div>
+                )) : <div>No notes are not availiable.</div>
             }
             </div>
         </div> 
