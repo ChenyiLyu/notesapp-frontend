@@ -8,18 +8,19 @@ import AddNote from './components/AddNote';
 function App() {
   return (
     <BrowserRouter>
-    <div>
-      <Navbar />
       <div>
-        <Switch>
-          <Route exact path="/" component={NotesList} />
-          <Route path="/add" component={AddNote} />
-          <Route path="*" component={NotFound} />
-        </Switch>
+        <Navbar />
+        <div>
+          <Switch>
+            <Route exact path="/" component={NotesList} />
+            <Route path="/add" component={AddNote} />
+            <Route path="*" component={NotFound} />
+          </Switch>
+        </div>
       </div>
-    </div>
     </BrowserRouter>
   );
 }
 
 export default App;
+

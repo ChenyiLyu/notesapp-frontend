@@ -21,7 +21,7 @@ const AddNote = () => {
             })
     }
 
-    return ( 
+    return (
         <div className="create">
             <form>
 
@@ -68,7 +68,7 @@ const AddNote = () => {
                 </div>
             </form>
         </div>
-     );
+    );
 }
  
 export default AddNote;

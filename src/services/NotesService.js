@@ -8,4 +8,4 @@ const create = data => {
     return httpClient.post("/notes", data);
 }
 
-export default { getAll, create};
+export default { getAll, create };
