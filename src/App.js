@@ -4,6 +4,7 @@ import NotFound from './components/NotFound';
 import NotesList from './components/NotesList';
 import Navbar from './components/Navbar';
 import AddNote from './components/AddNote';
+import NotesDetails from './components/NotesDetails';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Switch>
             <Route exact path="/" component={NotesList} />
             <Route path="/add" component={AddNote} />
+            <Route path="/notes/:id" component={NotesDetails} />
             <Route path="*" component={NotFound} />
           </Switch>
         </div>
